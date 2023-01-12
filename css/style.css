@@ -10,6 +10,17 @@
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
   --background_video: url("../img/wave.mp4");
+  #background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: #1f232e;

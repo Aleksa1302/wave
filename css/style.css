@@ -9,19 +9,8 @@
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
-  --background_image: url("../img/wave.mp4");*/
+  --background_image: url("https://glamcdn.nyc3.cdn.digitaloceanspaces.com/wave/bg.gif");
   
-  #background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: #1f232e;
@@ -65,7 +54,7 @@ body {
   font: var(--font_size) var(--font_family);
   font-weight: 400;
   line-height: 1.5;
- /* background: var(--background_color) var(--background_image) no-repeat center; */
+background: var(--background_color) var(--background_image) no-repeat center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

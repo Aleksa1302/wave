@@ -10,6 +10,7 @@
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
   --background_image: url("../img/wave.mp4");*/
+  
   #background-video {
   width: 100vw;
   height: 100vh;
